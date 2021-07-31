@@ -1,2 +1,2 @@
 # shmlox
-A Zig implementatino of the Crafting Interpreters Lox Language
+A Zig implementation of the Crafting Interpreters Lox Language
