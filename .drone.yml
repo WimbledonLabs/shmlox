@@ -5,7 +5,7 @@ steps:
 - name: test
   image: ziglang/static-base
   commands:
-  - zig test
+  - zig version
 
 trigger:
   event:
