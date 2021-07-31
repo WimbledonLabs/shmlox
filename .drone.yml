@@ -1,0 +1,12 @@
+kind: pipeline
+name: default
+
+steps:
+- name: test
+  image: ziglang/static-base
+  commands:
+  - zig test
+
+trigger:
+  event:
+  - push
