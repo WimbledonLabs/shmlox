@@ -3,7 +3,7 @@ name: default
 
 steps:
 - name: test
-  image: ziglang/static-base
+  image: ziglang/static-base:llvm12-aarch64-5
   commands:
   - zig version
 
