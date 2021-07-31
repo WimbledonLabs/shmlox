@@ -3,10 +3,9 @@ name: default
 
 steps:
 - name: test
-  image: ziglang/static-base:llvm12-aarch64-5
+  image: shmolyneaux/ziglang:0.8.0
   commands:
-      #- zig version
-      - echo test
+      - zig version
 
 trigger:
   event:
